@@ -1,3 +1,23 @@
 body{
 	background-color: #f3bd48;	
 }
+
+h2{
+	font-size: 50px;
+
+	color: maroon;
+}
+
+.heading{
+	font-size: 20px;
+	font-weight: normal;
+	background-color: saddlebrown;
+	color: maroon;
+}
+
+
+#block{
+	width: 600px;
+	height: 300px;
+	background-color: chocolate;
+}

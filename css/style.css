@@ -1,4 +1,4 @@
-body{
+/*body{
 	background-color: #f3bd48;	
 }
 
@@ -20,4 +20,49 @@ h2{
 	width: 600px;
 	height: 300px;
 	background-color: chocolate;
+}*/
+
+body{
+	background-color: #f3bd48;
 }
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+section{
+	width: 100%; /*px/%/vw*/
+	height: 100vh; /*px/%/vh*/ 
+	background-color: #f3bd48;
+}
+
+#header{
+	width: 100%; /*px/%/vw*/
+	height: 100vh; /*px/%/vh*/ 
+	background-color: chocolate;
+	/*line-height: 100vh;*/ /*размер междустрочного интервала*/
+	background-image: url(http://colsonart.com/g/bac/backyards-gallery-garage-door-repair-replacement-richardson-img-1024x768.jpg);
+	background-size: cover; /*100% 100%*/
+	background-repeat: no-repeat;
+	background-position: center; /*center|top|left|right|bottom*/
+	background-attachment: fixed;
+
+
+}
+
+#header h1{
+	font: ;
+	font-size: 75px; /*px/em/rem/%/vh*/
+	font-weight: normal; /*normal/bold/semi-bold//*/
+	/*font-family: 'Arial';*/
+	/*font-variant: small-caps;*/ /*small-caps/*/
+	font-style: italic; /*normal/monospace*/
+	color: maroon;
+	text-align: left; /*left|right|justify*/
+	text-decoration: underline; /*overline/line-through*/
+	text-transform: capitalize; /*uppercase/capitalize/lowercase*/
+	text-indent: 100px; /*px/em/rem/%/vw*/
+}
+
+
